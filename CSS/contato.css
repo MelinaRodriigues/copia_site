@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zen+Loop:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 16%;
+    top: 0;
+}
+
+
+body{
+    background: #FFFAFA;
+    color: #696969;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10rem;
+}
+
+.logotipo{
+    display: flex;
+    background-color: FFFAFA;
+    flex-wrap: wrap;
+    padding-left: 30rem;
+    padding-top: 2rem;
+}
+
+nav{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    flex-direction: row;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 30px;
+}
+
+
+h2{
+    display: flex;
+    padding: 1rem;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #4682B4;
+    text-transform: uppercase;
+    background-color: #EEF8FB;
+    justify-content: center;
+}
+
+h4{
+    margin: 20px;
+    font-size: 1rem;
+    color: #4682B4;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.botoes-menu{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: white; 
+    background-color: #4682B4; 
+    text-align: center; 
+    border-radius: 5px; 
+    cursor: pointer; 
+} 
+
+.botoes-menu:hover {
+    background-color: #009ACD;
+}
+
+
+input[type="text"] {
+    margin: 15px;
+    width: 30%;
+    padding: 0.6rem;
+    border: 1px solid #4682B4;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f0ecec;
+}
+
+.botaoenviar:hover { 
+    background-color: #009ACD; 
+}
+
+.botaoenviar {
+    background-color: #4682B4; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 900px; 
+    cursor: pointer; 
+    border-radius: 12px;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    background-color: #EEF8FB;
+    justify-content: center;
+}
+
+.container-mapa{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    margin: 10px;
+}
+
+
+.canais {
+    margin-left: 5rem;
+    text-align: center;
+}
